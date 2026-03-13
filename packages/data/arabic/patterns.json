@@ -1,0 +1,12 @@
+[
+  { "id": "fa'ala", "template": "فَعَلَ", "meaning": "past tense (Form I)", "language": "ar" },
+  { "id": "yaf'alu", "template": "يَفْعَلُ", "meaning": "present (Form I)", "language": "ar" },
+  { "id": "fa''ala", "template": "فَعَّلَ", "meaning": "Form II (intensive/causative)", "language": "ar" },
+  { "id": "fā'ala", "template": "فَاعَلَ", "meaning": "Form III (reciprocal)", "language": "ar" },
+  { "id": "ʼaf'ala", "template": "أَفْعَلَ", "meaning": "Form IV (causative)", "language": "ar" },
+  { "id": "tafa''ala", "template": "تَفَعَّلَ", "meaning": "Form V (reflexive)", "language": "ar" },
+  { "id": "tafā'ala", "template": "تَفَاعَلَ", "meaning": "Form VI (reciprocal)", "language": "ar" },
+  { "id": "infa'ala", "template": "اِنْفَعَلَ", "meaning": "Form VII (passive)", "language": "ar" },
+  { "id": "ifta'ala", "template": "اِفْتَعَلَ", "meaning": "Form VIII (reflexive)", "language": "ar" },
+  { "id": "istaf'ala", "template": "اِسْتَفْعَلَ", "meaning": "Form X (requestative)", "language": "ar" }
+]

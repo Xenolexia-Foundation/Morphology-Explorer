@@ -1,0 +1,6 @@
+[
+  { "id": "godan", "template": "五段", "meaning": "Godan verb (u-dropping)", "language": "ja" },
+  { "id": "ichidan", "template": "一段", "meaning": "Ichidan verb (ru-verb)", "language": "ja" },
+  { "id": "sahen", "template": "サ変", "meaning": "Suru verb", "language": "ja" },
+  { "id": "kahen", "template": "カ変", "meaning": "Kuru verb", "language": "ja" }
+]

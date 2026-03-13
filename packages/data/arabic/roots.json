@@ -1,0 +1,22 @@
+[
+  { "id": "k-t-b", "consonants": ["ك", "ت", "ب"], "meaning": "write", "language": "ar" },
+  { "id": "q-r-ʼ", "consonants": ["ق", "ر", "ء"], "meaning": "read", "language": "ar" },
+  { "id": "d-r-s", "consonants": ["د", "ر", "س"], "meaning": "study", "language": "ar" },
+  { "id": "k-l-m", "consonants": ["ك", "ل", "م"], "meaning": "speak", "language": "ar" },
+  { "id": "s-l-m", "consonants": ["س", "ل", "م"], "meaning": "peace, safety", "language": "ar" },
+  { "id": "j-l-s", "consonants": ["ج", "ل", "س"], "meaning": "sit", "language": "ar" },
+  { "id": "q-w-m", "consonants": ["ق", "و", "م"], "meaning": "stand", "language": "ar" },
+  { "id": "ʻ-m-l", "consonants": ["ع", "م", "ل"], "meaning": "work", "language": "ar" },
+  { "id": "ʻ-r-f", "consonants": ["ع", "ر", "ف"], "meaning": "know", "language": "ar" },
+  { "id": "ḥ-s-b", "consonants": ["ح", "س", "ب"], "meaning": "count, think", "language": "ar" },
+  { "id": "ʼ-k-l", "consonants": ["أ", "ك", "ل"], "meaning": "eat", "language": "ar" },
+  { "id": "š-r-b", "consonants": ["ش", "ر", "ب"], "meaning": "drink", "language": "ar" },
+  { "id": "ḍ-r-b", "consonants": ["ض", "ر", "ب"], "meaning": "strike, hit", "language": "ar" },
+  { "id": "f-t-ḥ", "consonants": ["ف", "ت", "ح"], "meaning": "open", "language": "ar" },
+  { "id": "q-t-l", "consonants": ["ق", "ت", "ل"], "meaning": "kill", "language": "ar" },
+  { "id": "ḥ-b-b", "consonants": ["ح", "ب", "ب"], "meaning": "love", "language": "ar" },
+  { "id": "ʻ-l-m", "consonants": ["ع", "ل", "م"], "meaning": "knowledge", "language": "ar" },
+  { "id": "k-b-r", "consonants": ["ك", "ب", "ر"], "meaning": "be great", "language": "ar" },
+  { "id": "ṣ-ḡ-r", "consonants": ["ص", "غ", "ر"], "meaning": "be small", "language": "ar" },
+  { "id": "j-m-ʻ", "consonants": ["ج", "م", "ع"], "meaning": "gather", "language": "ar" }
+]

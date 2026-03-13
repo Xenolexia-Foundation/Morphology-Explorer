@@ -1,0 +1,8 @@
+[
+  { "id": "kak", "consonants": ["書"], "meaning": "write", "language": "ja", "patternId": "godan" },
+  { "id": "yom", "consonants": ["読"], "meaning": "read", "language": "ja", "patternId": "godan" },
+  { "id": "taber", "consonants": ["食", "べ"], "meaning": "eat", "language": "ja", "patternId": "ichidan" },
+  { "id": "mir", "consonants": ["見"], "meaning": "see", "language": "ja", "patternId": "ichidan" },
+  { "id": "suru", "consonants": ["す"], "meaning": "do", "language": "ja", "patternId": "sahen" },
+  { "id": "kuru", "consonants": ["来"], "meaning": "come", "language": "ja", "patternId": "kahen" }
+]

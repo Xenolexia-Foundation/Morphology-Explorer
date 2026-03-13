@@ -1,0 +1,45 @@
+{
+  "name": "morphology-explorer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local morphology explorer for Arabic and Japanese",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "build:deps": "npm run build -w @morphology-explorer/core && npm run build -w @morphology-explorer/data && npm run build -w @morphology-explorer/analyzer",
+    "dev": "npm run build:deps && npm run dev -w app",
+    "electron:dev": "npm run build:deps && concurrently -k \"npm run dev -w app\" \"wait-on http://localhost:5173 && npm run start -w @morphology-explorer/electron -- --dev\"",
+    "electron:build": "npm run build:deps && npm run build -w app && npm run build -w @morphology-explorer/electron",
+    "electron:start": "npm run start -w @morphology-explorer/electron",
+    "mobile": "npm run build:deps && npm run start -w @morphology-explorer/mobile",
+    "mobile:android": "npm run build:deps && npm run android -w @morphology-explorer/mobile",
+    "mobile:ios": "npm run build:deps && npm run ios -w @morphology-explorer/mobile",
+    "test": "npm run build:deps && vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
+  },
+  "workspaces": [
+    "packages/core",
+    "packages/data",
+    "packages/analyzer",
+    "packages/app",
+    "packages/electron",
+    "packages/mobile"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "concurrently": "^9.1.0",
+    "wait-on": "^8.0.1",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.16.0",
+    "vitest": "^2.1.6",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

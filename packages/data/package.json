@@ -1,0 +1,25 @@
+{
+  "name": "@morphology-explorer/data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc && cp arabic/roots.json arabic/patterns.json dist/arabic/ && mkdir -p dist/japanese && cp japanese/roots.json japanese/patterns.json dist/japanese/",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@morphology-explorer/core": "*",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

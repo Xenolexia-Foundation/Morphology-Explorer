@@ -1,0 +1,65 @@
+# Dependencies
+node_modules
+
+# Build outputs and intermediates
+dist
+build
+out
+.vite
+*.tsbuildinfo
+
+# Caches
+.cache
+.parcel-cache
+.eslintcache
+*.cache
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Test and coverage
+coverage
+.nyc_output
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Expo / React Native
+.expo
+web-build
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Electron (if any local packaging)
+release
+out
+
+# Markdown (keep only README)
+*.md
+!README.md
+**/*.md
+!**/README.md
+
+# Misc
+*.local
+.turbo

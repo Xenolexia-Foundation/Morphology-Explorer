@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "noEmit": false,
+    "resolveJsonModule": true
+  },
+  "include": ["index.ts", "arabic/**/*.ts", "japanese/**/*.ts"],
+  "exclude": ["node_modules"]
+}
