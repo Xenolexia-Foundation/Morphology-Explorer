@@ -1,4 +1,9 @@
 /**
+ * Copyright (C) 2016-2026 Husain Alamri (H4n) and Xenolexia Foundation.
+ * Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See LICENSE.
+ */
+
+/**
  * Arabic morphological analyzer: pattern matching + root lookup + related words.
  */
 import type { AnalysisResult, RelatedWord, Root } from "@morphology-explorer/core";
